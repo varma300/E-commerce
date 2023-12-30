@@ -1,0 +1,118 @@
+.inform {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    /* animation: breathingEffect 3s ease-in-out infinite; */
+    /* animation-fill-mode: both; */
+  }
+/* .inform:hover{
+  animation-play-state: paused;
+  animation-duration: 10s;
+}
+   */
+  .inform h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .in-group {
+    margin-bottom: 20px;
+  }
+  
+  .in-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-things {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-things:hover {
+    border-color: #00bcd4;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .in-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .in-button:hover {
+    background-color: #74c663;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(50%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .form-control:hover {
+    transform: translate(0px, 0px);
+  }
+  .beef{
+    padding-top:8%;
+    background-color: #f1f1ef;
+    height: 120vh;
+  }
+  .acnt-text{
+    text-decoration: none;
+    color: black;
+  }
+  .p-txt{
+    padding-top: 5%;
+  }
+  @keyframes breathingEffect {
+    0% {
+    
+      transform: scale(1);
+    }
+    50% {
+     
+      transform: scale(1.05);
+    }
+    100% {
+     
+      transform: scale(1);
+    }
+  }
+
+  @media only screen and (max-width: 365px) {
+    .inform{
+        width: 80%;
+    }
+  
+  }

@@ -1,0 +1,106 @@
+.hed{
+    background-color: #f1f1ef;
+    text-align: center;
+    height: 5vh;
+    font-size: 12px;
+    padding-top: 1vh;
+    color: #979a9b;
+}
+
+.image{
+    transition: ease-out transform .2s;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+
+.btn-hover:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out; 
+}
+.btn-view{
+    border-radius: 0;
+    background-color: #00bcd4;
+    border: none;
+    
+}
+.btn-view:hover{
+    transform: translate(2px, 2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #249aaa;
+    transition: all 0.3s ease-in-out;
+}
+.btn-cart{
+    background-color: rgb(233, 44, 44);
+    border-radius: 0;
+    border: none;
+}
+.btn-cart:hover{
+    background-color: rgb(241, 92, 92);
+}
+
+.card-img-product{
+    margin-right: 20%;
+}
+
+@media only screen and (max-width: 500px) {
+    .heading-love{
+        display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .heading-love1{
+        display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 475px) {
+    .heading-arrival{
+        display: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 480px) {
+    .shop-button{
+        margin-top:60%;
+    }
+
+  }
+  @media only screen and (max-width: 365px) {
+    .shop-button{
+        margin-top:55%;
+        background: transparent;
+        color: white;
+    }
+
+  }
+
+  @media only screen and (max-width: 436px) {
+    .collection-text{
+      font-size: 2rem !important;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 436px) {
+    .kuttapu{
+      width: 15rem !important;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 436px) {
+    .woman-txt{
+      font-size: 2rem !important;
+
+    }
+
+  }
+
+
